@@ -1,0 +1,14 @@
+<div class="w-3/5 mx-auto py-20">
+    <h3 class="card-header text-white bg-black text-center font-medium text-4xl py-8 rounded-t-lg">EVENT REGISTRATION FORM</h3>
+
+    <div class="card-body border-2 rounded-b-lg bg-white drop-shadow-lg">
+        <div class="w-4/5 m-auto pb-20">
+            <form [formGroup]="form" (ngSubmit)="onSubmit()">
+                <formly-form [form]="form" [fields]="fields" [options]="options" ></formly-form>
+                    <button type="submit" style="background-color: rgb(230, 84, 84);" class="py-2 text-xl font-medium px-8 text-white rounded-md" >
+                    REGISTER
+                    </button>
+            </form>
+        </div>
+    </div>
+</div>

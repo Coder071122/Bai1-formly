@@ -1,0 +1,7 @@
+.put::after {
+    content: "Last Name";
+    display: block;
+    color: #979393; 
+    font-weight:500; 
+    margin-top: 10px; 
+}
